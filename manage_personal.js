@@ -157,7 +157,3 @@ app.delete('/salesman/:salesmanId/performance/:recordId', async (req, res) => {
 app.listen(PORT, () =>{
     console.log(`Server is running on http://localhost:${PORT}`);
 });
-
-//public void addSocialPerformanceRecord(SocialPerformanceRecord record , SalesMan salesMan );
-
-//public List<SocialPerformanceRecord> readSocialPerformanceRecord( SalesMan salesMan );
